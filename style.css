@@ -1,0 +1,376 @@
+/*GLOBAL*/
+html, body{
+    position: relative;
+}
+[class*="col-"] {
+    padding: 1rem;
+  }
+  .row, .container-fluid {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    }
+/*HEADERS*/
+.navbar{
+    margin-left: 42px !important;
+    margin-right: 42px !important;
+}
+.masthead {
+    padding-top: 15rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(53, 53, 53, 0.8) 0%, rgba(122, 122, 122, 0.8) 100%), url("https://picsum.photos/1920/1276");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: -76px;
+}
+.logo{
+    border-radius: 50%;
+    background-image: url("https://picsum.photos/60/60");
+    height: 60px;
+    width: 60px;
+}
+.headersTexte{
+    margin-bottom: 200px;
+    width: 800px;
+}
+.headers{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.nav-link{
+    font-size: 24px !important;
+    color: white !important;
+}
+.telephone{
+    font-size: 24px !important;
+    color: white !important; 
+}
+/*SECTION CARDS PRESENTATION*/
+#presentation{
+    margin-top: -160px;
+}
+.cardsSpecial{
+    margin: 0 24px 0 24px !important;
+}
+.cardsSpecial .col-md-4, .col-sm-12{
+    padding: 0 !important;
+    border: none !important;
+}
+.card-body{
+    border: none !important;
+    padding: 0px !important;
+    max-width: 300px !important;
+}
+.rowSecond{
+    margin: 42px 0 20px 0;
+}
+.rowSecond_texte{
+    width: 800px;
+}
+/*SECTION HUMAN*/
+
+
+  .fixed-background {
+    position: relative;
+    width: 100%;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999!important;
+  }
+  .fixed {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./ressources/human.jpg);
+    z-index: -1;
+  }
+.dark{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+.human{
+    height: 100%;
+    padding: 3rem;
+}
+/*SECTION AUTHOR SERVICES CAROUSSEL*/
+#services{
+    height: 100%;
+    padding: 3rem;
+}
+
+#carouselExampleCaptions{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+.specialTitreService{
+    margin-left: 17px;
+}
+.liste_service{
+    margin-top: 50px;
+}
+.carousel-control-next-icon{
+    color: black;
+    background-color: black;
+}
+
+.carousel-inner{
+    width: 68% !important;
+}
+.avatar{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+.content_commentaire p{
+    width:90%;
+    text-align: center;
+}
+.content_commentaire h5{
+    width:460px;
+    text-align: center;
+}
+.carousel-control-prev{
+    background-image: url(./ressources/gauche.png) !important;
+    background: no-repeat center;
+    width: 5% !important;
+    bottom: 150px !important;
+}
+.carousel-control-next{
+    background-image: url(./ressources/droite.png) !important;
+    width: 5% !important;
+    background: no-repeat center;
+    bottom: 150px !important;
+}
+.colspecial{
+    margin-top: 20px;
+}
+
+/*SECTION CONTACT NEWSLETTER CARTE*/
+#contact{
+    padding: 3rem;
+}
+.mapGoogle{
+    width: 100%;
+    height: 310px;
+}
+.contact_special{
+    line-height: 50px;
+}
+#newsletter{
+    justify-content: space-between;
+}
+.form-control{
+    margin-bottom: 50px !important;
+}
+#findUs{
+    justify-content: space-between;
+}
+/*FOOTER*/
+#footer{
+    background: grey;
+    text-align: right;
+}
+.copyright{
+    text-align: right;
+}
+@media (max-width:768px){
+    /*GLOBAL*/
+    
+    /*HEADERS*/
+    .nav-link{
+        font-size: 18px !important;
+    }
+    .telephone{
+        font-size: 18px !important;
+    }
+    .navbar{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .navbar-nav:first-child{
+        margin-left: 10px;
+    }
+    .logo{
+        background-image: url("https://picsum.photos/49/49");
+        height: 49px;
+        width: 49px;
+    }
+    .headersTexte{
+        margin-bottom: 200px;
+        width: 460px;
+    }
+    /*SECTION CARDS PRESENTATION*/
+    .rowSecond_texte{
+        width: 460px;
+    }
+    #presentation{
+        margin-top: -80px;
+    }
+    /*SECTION HUMAN*/
+    
+    
+    /*SECTION AUTHOR SERVICES CAROUSSEL*/
+    #services{
+        padding: 1rem;
+    }
+    .avatar{
+        width: 34px;
+        height: 34px;
+    }
+    .colspecial{
+        margin-top: 5px;
+    }
+    .carousel-inner{
+        width: 90% !important;
+    }
+    .carousel-item p{
+        width: 160px;
+    }
+    .content_commentaire p{
+        width:100%;
+        text-align: center;
+        line-height: 55px !important;
+    }
+    .carousel-control-prev{
+        width: 5% !important;
+        bottom: 100px !important;
+    }
+    .carousel-control-next{
+        background: no-repeat center;
+        bottom: 100px !important;
+    }
+    .nom_avatar{
+        margin-bottom: -7px;
+        margin-top: 10px;
+    }
+    ul{
+        list-style-type: square;
+        margin-left: -17px;
+        text-align: justify;
+    }
+    
+    /*SECTION CONTACT NEWSLETTER CARTE*/
+    #contact{
+        padding: 1rem;
+    }
+    .mapGoogle{
+        width: 100%;
+        height: 310px;
+    }
+    .contact_special{
+        line-height: 20px;
+    }
+    .form-control{
+        margin-bottom: 20px !important;
+    }
+    /*FOOTER*/
+    
+    }
+
+@media (max-width:375px){
+/*GLOBAL*/
+
+/*HEADERS*/
+.nav-link{
+    color: black;
+}
+.telephone{
+    color: black;
+}
+.logo{
+    background-image: url("https://picsum.photos/36/36");
+    height: 36px;
+    width: 36px;
+}
+.masthead {
+    padding-top: 10rem;
+
+}
+.headersTexte{
+    margin-bottom: 50px;
+}
+/*SECTION CARDS PRESENTATION*/
+.rowSecond_texte{
+    width: 100%;
+}
+.cardsSpecial{
+    margin: 0 0px 0 0px !important;
+}
+#presentation{
+    margin-top: 0;
+    padding: 0 !important;
+}
+.card-body{
+    text-align: center;
+    max-width: 375px !important;
+}
+
+/*SECTION HUMAN*/
+
+
+/*SECTION AUTHOR SERVICES CAROUSSEL*/
+#services{
+    padding: 1rem;
+}
+#content{
+    max-width: 375px;
+}
+.specialTitreService{
+    margin-left: 0px;
+}
+#carouselExampleCaptions{
+    margin-top: 25px;
+}
+.liste_service{
+    margin-top: 25px;
+}
+.carousel-inner{
+    width: 90% !important;
+}
+.carousel-item p{
+    width: 160px;
+}
+.content_commentaire p{
+    width:100%;
+    text-align: center;
+    line-height: 20px !important;
+}
+.carousel-control-prev{
+    width: 8% !important;
+    bottom: 100px !important;
+}
+.carousel-control-next{
+    width: 8% !important;
+    bottom: 100px !important;
+}
+/*SECTION CONTACT NEWSLETTER CARTE*/
+.contact_items{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+    text-align: center;
+}
+.form-control{
+    margin: 0 10px 0 10px;
+}
+#socialMedia{
+    justify-content: center;
+}
+/*FOOTER*/
+.copyright{
+    text-align: center;
+}
+}
