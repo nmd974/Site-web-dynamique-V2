@@ -5,7 +5,7 @@ html, body{
 
 /*HEADERS*/
 .navbar{
-    margin-left: 24px !important;
+    margin-left: 29px !important;
     margin-right: 24px !important;
 }
 .masthead {
@@ -101,7 +101,8 @@ html, body{
 }
 
 #contentQui{
-    margin-left: 100px!important;
+    margin-left: 80px!important;
+    margin-right: 0px!important;
 }
 .start{
     width: 300px;
