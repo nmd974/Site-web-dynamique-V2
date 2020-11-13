@@ -195,6 +195,7 @@ html, body{
 .form-control{
     margin-bottom: 30px !important;
     margin-right: 138px !important;
+    -moz-margin-left : 200px !important;
 }
 #findUs{
     justify-content: space-between;
@@ -442,9 +443,13 @@ html, body{
     margin-right: 20px !important;
     margin-left: 20px !important;
     margin-top: 10px !important;
+
 }
 #newsletter{
     margin-top: 50px !important;
+}
+.bouton_inscription{
+    width: 150px !important;
 }
 
 /*FOOTER*/
