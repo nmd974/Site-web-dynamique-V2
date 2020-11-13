@@ -187,6 +187,9 @@ html, body{
 #findUs{
     justify-content: space-between;
 }
+.bouton_inscription{
+    margin-bottom: 25px;
+}
 /*FOOTER*/
 #footer{
     background: grey;
