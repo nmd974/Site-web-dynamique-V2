@@ -55,6 +55,7 @@ html, body{
     border: none !important;
     padding: 0px !important;
     max-width: 300px !important;
+    padding-left: 10px!important;
 }
 .rowSecond{
     margin: 42px 0 20px 0;
@@ -232,6 +233,9 @@ html, body{
     #presentation{
         margin-top: -80px;
     }
+    .card-body{
+        padding-left: 5px!important;
+    }
     /*SECTION HUMAN*/
     #contentQui{
         margin-left: 90px!important;
@@ -341,6 +345,7 @@ html, body{
     padding-left: 10px!important;
     padding-right: 10px!important;
 }
+
 
 /*SECTION HUMAN*/
 #contentQui{
