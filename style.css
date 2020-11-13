@@ -25,7 +25,7 @@ html, body{
     width: 60px;
 }
 .headersTexte{
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     width: 800px;
 }
 .headers{
@@ -42,7 +42,7 @@ html, body{
 }
 /*SECTION CARDS PRESENTATION*/
 #presentation{
-    margin-top: -200px;
+    margin-top: -10%;
 }
 .cardsSpecial{
     margin: 0 24px 0 24px !important;
