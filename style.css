@@ -129,7 +129,7 @@ html, body{
 }
 
 .carousel-inner{
-    width: 68% !important;
+    width: 100% !important;
 }
 .avatar{
     border-radius: 50%;
@@ -137,7 +137,7 @@ html, body{
     height: 44px;
 }
 .content_commentaire p{
-    width:90%;
+    width:100%;
     text-align: center;
     right:  250px;
 }
@@ -150,16 +150,20 @@ html, body{
     background-image: url(./ressources/gauche.png) !important;
     background: no-repeat center;
     width: 5% !important;
-    bottom: 150px !important;
+    bottom: 125px !important;
 }
 .carousel-control-next{
     background-image: url(./ressources/droite.png) !important;
     width: 5% !important;
     background: no-repeat center;
-    bottom: 150px !important;
+    bottom: 125px !important;
 }
 .colspecial{
-    margin-top: 20px;
+    margin-top: 80px;
+}
+.nom_avatar{
+    margin-bottom: -7px;
+    margin-top: 10px;
 }
 
 /*SECTION CONTACT NEWSLETTER CARTE*/
