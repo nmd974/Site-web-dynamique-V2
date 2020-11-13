@@ -2,17 +2,11 @@
 html, body{
     position: relative;
 }
-[class*="col-"] {
-    padding: 1rem;
-  }
-  .row, .container-fluid {
-    margin-left: 0px!important;
-    margin-right: 0px!important;
-    }
+
 /*HEADERS*/
 .navbar{
-    margin-left: 42px !important;
-    margin-right: 42px !important;
+    margin-left: 24px !important;
+    margin-right: 24px !important;
 }
 .masthead {
     padding-top: 15rem;
@@ -145,10 +139,12 @@ html, body{
 .content_commentaire p{
     width:90%;
     text-align: center;
+    right:  250px;
 }
 .content_commentaire h5{
     width:460px;
     text-align: center;
+
 }
 .carousel-control-prev{
     background-image: url(./ressources/gauche.png) !important;
@@ -173,7 +169,7 @@ html, body{
 .mapGoogle{
     display: flex;
     width: 100%;
-    height: 310px;
+    height: 450px;
 }
 .contact_special{
     line-height: 50px;
