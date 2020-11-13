@@ -460,7 +460,10 @@ html, body{
 
 /*FOOTER*/
 .copyright{
-    text-align: center;
+    text-align: center !important;
+}
+#footertext{
+    text-align: center !important;
 }
 }
 
