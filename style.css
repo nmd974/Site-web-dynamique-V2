@@ -194,7 +194,7 @@ html, body{
 
 .form-control{
     margin-bottom: 30px !important;
-    margin-right: 68px !important;
+    margin-right: 138px !important;
 }
 #findUs{
     justify-content: space-between;
@@ -439,11 +439,12 @@ html, body{
 }
 .form-control{
     margin-bottom: 20px !important;
-    margin-right: 58px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
     margin-top: 10px !important;
 }
 #newsletter{
-    
+    margin-top: 50px !important;
 }
 
 /*FOOTER*/
