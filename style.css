@@ -211,10 +211,7 @@ html, body{
 .copyright{
     text-align: right;
 }
-#footertext {
-    margin-left: 15px;
-    margin-top: 10px;
-}
+
 
 @media (max-width:768px){
     /*GLOBAL*/
