@@ -205,8 +205,8 @@ html, body{
         font-size: 18px !important;
     }
     .navbar{
-        margin-left: 0px !important;
-        margin-right: 0px !important;
+        margin-left: 21px !important;
+        margin-right: 21px !important;
     }
     .navbar-nav:first-child{
         margin-left: 10px;
@@ -299,6 +299,10 @@ html, body{
 /*HEADERS*/
 .nav-link{
     color: black;
+}
+.navbar{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 .telephone{
     color: black;
