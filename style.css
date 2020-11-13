@@ -201,7 +201,7 @@ html, body{
 .form-control{
     margin-bottom: 60px !important;
     margin-right: 42px !important;
-    -moz-margin-left : 200px !important;
+    /* -moz-margin-left : 200px !important; */
 }
 #findUs{
     justify-content: space-between;
