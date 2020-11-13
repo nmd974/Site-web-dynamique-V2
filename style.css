@@ -295,6 +295,10 @@ html, body{
 .nav-link{
     color: black;
 }
+.navbar{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 .telephone{
     color: black;
 }
