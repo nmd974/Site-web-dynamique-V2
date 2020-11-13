@@ -208,6 +208,7 @@ html, body{
 }
 .bouton_inscription{
     margin-bottom: 25px;
+    width: 200px !important;
 }
 /*FOOTER*/
 #footer{
@@ -318,10 +319,11 @@ html, body{
     .contact_special{
         line-height: 20px;
         margin-bottom: 5px !important;
+        margin-top: 38px !important;
     }
     .form-control{
         margin-bottom: 20px !important;
-        margin-right: 58px !important;
+        margin-right: 28px !important;
     }
 
     /*FOOTER*/
@@ -338,6 +340,7 @@ html, body{
 .navbar{
     margin-left: 0 !important;
     margin-right: 0 !important;
+    margin-top: 5px !important;
 }
 .telephone{
     color: black;
@@ -465,7 +468,10 @@ html, body{
 
 /*FOOTER*/
 .copyright{
-    text-align: center;
+    text-align: center !important;
+}
+#footertext{
+    text-align: center !important;
 }
 }
 
