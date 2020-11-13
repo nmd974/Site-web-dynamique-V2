@@ -181,37 +181,42 @@ html, body{
 .mapGoogle{
     display: flex;
     width: 90%;
-    height: 350px;
+    height: 320px;
     margin-left: 30px !important;
 }
 .contact_special{
     line-height: 50px;
-    margin-top: 70px !important;
+    margin-top: 55px !important;
 }
 #newsletter{
     justify-content: space-between;
 }
 
 .form-control{
-    margin-bottom: 30px !important;
-    margin-right: 138px !important;
+    margin-bottom: 60px !important;
+    margin-right: 42px !important;
     -moz-margin-left : 200px !important;
 }
 #findUs{
     justify-content: space-between;
 }
 .bouton_inscription{
-    margin-bottom: 25px;
+    margin-bottom: 20px !important;
     width: 200px !important;
 }
 /*FOOTER*/
 #footer{
     background: grey;
     text-align: right;
+    padding-left: 3.5rem !important;
+    padding-right: 3.5rem !important;
 }
 .copyright{
     text-align: right;
 }
+/* #footertext{
+    margin-left: 40px !important;
+} */
 
 
 @media (max-width:768px){
@@ -319,6 +324,10 @@ html, body{
         margin-bottom: 20px !important;
         margin-right: 28px !important;
     }
+    .bouton_inscription{
+        margin-bottom: 20px !important;
+        width: 120px !important;
+    }
 
     /*FOOTER*/
     
@@ -334,7 +343,7 @@ html, body{
 .navbar{
     margin-left: 0 !important;
     margin-right: 0 !important;
-    margin-top: 5px !important;
+    /* margin-top: 5px !important; */
 }
 .telephone{
     color: black;
