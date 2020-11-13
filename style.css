@@ -223,6 +223,7 @@ html, body{
     /*SECTION CARDS PRESENTATION*/
     .rowSecond_texte{
         width: 460px;
+        text-align: center;
     }
     #presentation{
         margin-top: -80px;
@@ -336,8 +337,15 @@ html, body{
 }
 
 /*SECTION HUMAN*/
-
-
+#contentQui{
+    margin-left: 0px!important;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 300px;
+}
+.start{
+    width: 150px;
+}
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
 #services{
     padding: 1rem;
