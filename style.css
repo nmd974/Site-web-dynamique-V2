@@ -104,12 +104,12 @@ html, body{
     color: white;
     
 }
-.human{
-    height: 100%;
-    padding: 3rem;
-}
+
 #contentQui{
     margin-left: 100px!important;
+}
+.start{
+    width: 300px;
 }
 
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
@@ -228,8 +228,13 @@ html, body{
         margin-top: -80px;
     }
     /*SECTION HUMAN*/
-    
-    
+    #contentQui{
+        margin-left: 90px!important;
+    }
+    .start{
+        width: 200px;
+    }
+
     /*SECTION AUTHOR SERVICES CAROUSSEL*/
     #services{
         padding: 1rem;
