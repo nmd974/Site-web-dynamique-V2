@@ -186,7 +186,7 @@ html, body{
 }
 .contact_special{
     line-height: 50px;
-    margin-top: 40px !important;
+    margin-top: 70px !important;
 }
 #newsletter{
     justify-content: space-between;
@@ -403,6 +403,7 @@ html, body{
     width:100%;
     text-align: center;
     line-height: 20px !important;
+    margin-left: 10px !important;
 }
 .carousel-control-prev{
     width: 8% !important;
@@ -439,6 +440,7 @@ html, body{
 .contact_special{
     line-height: 20px;
     margin-bottom: 5px !important;
+    margin-top: 10px !important;
 }
 .form-control{
     margin-bottom: 20px !important;
@@ -447,6 +449,7 @@ html, body{
     margin-top: 10px !important;
 
 }
+
 #newsletter{
     margin-top: 50px !important;
 }

@@ -1,7 +1,15 @@
 //Ajout de la couleur de la nav bar si l'écran est inférieur à 375px
 $(document).ready(function(){
     if(window.innerWidth <= 375){
-    $('#navbar').addClass('bg-dark');
+        $('#navbar').addClass('bg-dark');
+        $('.fa-twitter').removeClass('fa-3x');
+        $('.fa-facebook-official').removeClass('fa-3x');
+        $('.fa-instagram').removeClass('fa-3x');
+        $('.fa-github').removeClass('fa-3x');
+        $('.fa-twitter').addClass('fa-2x');
+        $('.fa-facebook-official').addClass('fa-2x');
+        $('.fa-instagram').addClass('fa-2x');
+        $('.fa-github').addClass('fa-2x');
     }
 })
 
