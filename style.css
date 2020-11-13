@@ -312,10 +312,11 @@ html, body{
     .contact_special{
         line-height: 20px;
         margin-bottom: 5px !important;
+        margin-top: 38px !important;
     }
     .form-control{
         margin-bottom: 20px !important;
-        margin-right: 58px !important;
+        margin-right: 28px !important;
     }
 
     /*FOOTER*/

@@ -52,11 +52,10 @@ $('#form').on('click', () => {
 $( document ).ready(function() {
     $(window).scroll(function() {
         var Scroll = $(window).scrollTop() + 1;
-        var SectionWhere = $('#presentation').offset().top;
+        var SectionWhere = $('#textAnimation').offset().top;
 
         if (Scroll >= SectionWhere) { 
-            // $('#contentQui').addClass('slide-top')
-            // AOS.init();
+            AOS.init();
         } 
     });
 });
