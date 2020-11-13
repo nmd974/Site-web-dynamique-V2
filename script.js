@@ -1,7 +1,18 @@
 //Ajout de la couleur de la nav bar si l'écran est inférieur à 375px
+let click = false;
 $(document).ready(function(){
     if(window.innerWidth <= 375){
-        $('#navbar').addClass('bg-dark');
+
+        $('.navbar-toggler').on('click', function () {
+            if(click){
+                $('#navbar').removeClass('bg-dark');
+                click = false;
+            }else{
+                $('#navbar').addClass('bg-dark');
+                click = true;
+            }
+
+        })
         $('.fa-twitter').removeClass('fa-3x');
         $('.fa-facebook-official').removeClass('fa-3x');
         $('.fa-instagram').removeClass('fa-3x');
